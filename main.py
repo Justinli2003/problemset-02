@@ -157,12 +157,6 @@ def compare_multiply():
 
 
 def compare_multiply_bits(bit_sizes=(16, 32, 64, 128, 256, 512, 1024, 2048)):
-    """
-    The inputs used by compare_multiply() only range over ~4 to ~30 bits,
-    which is far too narrow to see the asymptotic difference. Here we
-    scale the *number of bits* n, which is the actual input size for
-    these algorithms.
-    """
     res = []
     for n in bit_sizes:
         x = BinaryNumber(2**n - 1)   # n ones: a worst-case-ish n-bit input
