@@ -1,7 +1,7 @@
 # CMPS 6610 Problem Set 02
 ## Answers
 
-**Name:**_________________________
+**Name:**_____Justin Li __________
 
 
 Place all written answers from `problemset-02.md` here for easier grading.
